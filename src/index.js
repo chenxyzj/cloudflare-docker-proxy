@@ -4,7 +4,7 @@ addEventListener("fetch", (event) => {
 });
 
 const dockerHub = "https://registry-1.docker.io";
-'const routes = {
+const routes = {
   "${workername}.${username}.workers.dev/": "https://registry-1.docker.io",
 };
 
